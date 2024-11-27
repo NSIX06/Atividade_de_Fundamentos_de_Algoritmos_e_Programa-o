@@ -1,0 +1,65 @@
+1 - Início
+    Leia número
+    Se número > 0 então
+        Escreva "Positivo"
+    Senão se número < 0 então
+        Escreva "Negativo"
+    Senão
+        Escreva "Zero"
+Fim
+
+2 - Início
+    Leia nome
+    Leia idade
+    Se idade >= 16 então
+        Escreva nome + " está apto(a) para votar."
+    Senão
+        Escreva nome + " não está apto(a) para votar."
+Fim
+
+
+3 - Início
+    Leia quantidade
+    valorTotal ← 0
+    Para i de 1 até quantidade faça
+        Leia preço
+        valorTotal ← valorTotal + preço
+    FimPara
+    Escreva "Valor total: " + valorTotal
+Fim
+
+
+4 - Início
+    Para i de 1 até 20 faça
+        Se i % 2 = 0 então
+            Escreva i
+        FimSe
+    FimPara
+Fim
+
+
+5 - Início
+    Leia número
+    Para i de 1 até 10 faça
+        resultado ← número * i
+        Escreva número + " x " + i + " = " + resultado
+    FimPara
+Fim
+
+
+6 - Início
+    Leia número
+    Se número % 5 = 0 então
+        Escreva "É múltiplo de 5"
+    Senão
+        Escreva "Não é múltiplo de 5"
+Fim
+
+
+7 - Início
+    Leia peso
+    Leia altura
+    IMC ← peso / (altura * altura)
+    Escreva "Seu IMC é: " + IMC
+Fim
+
